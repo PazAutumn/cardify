@@ -2,7 +2,7 @@
 
 
 # Cardify    [![Build Status](https://travis-ci.org/PazAutumn/cardify.svg?branch=cardify)](https://travis-ci.org/PazAutumn/cardify)
-[![cardify version](https://img.shields.io/badge/Last%20version-1.4.5-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
+[![cardify version](https://img.shields.io/badge/Last%20version-1.5.5-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
 [![autores](https://img.shields.io/badge/author-pazautumn%2C%20gabycasti-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
 
 ## Descripción:
@@ -65,7 +65,6 @@ var cardify = require('cardify');
 ## Ejemplo
 
 ![Ejemplo Cardify](http://www.grupojega.cl/images/gifcardify.gif)
-[**DEMO**]()
 
 ## Demo
 ![alt text](http://www.grupojega.cl/images/demo.gif)
