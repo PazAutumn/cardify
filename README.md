@@ -58,6 +58,10 @@ Y listo! ya estás preparado para usar browserify.
 ## Ejemplos
 ![alt text](http://www.grupojega.cl/images/hover.gif)
 
+## Demo
+![alt text](http://www.grupojega.cl/images/demo.gif)
+
+
 ## Herramientas
 
 **Producción:**
