@@ -1,9 +1,7 @@
-const chai = require('chai');
-const jsdom = require("jsdom");
-const {
-    JSDOM
-} = jsdom;
-let dom = new JSDOM('<!DOCTYPE html><html lang="en">' +
+var chai = require('chai');
+var jsdom = require("jsdom");
+var JSDOM = jsdom.JSDOM;
+var dom = new JSDOM('<!DOCTYPE html><html lang="en">' +
     '<head><meta charset="UTF-8"><title>Cardify</title>' +
     '</head><body><div class="cardify"><h2>Prueba 1</h2>' +
     '<img src="https://pbs.twimg.com/media/ClFixn2UoAA85OZ.jpg" alt="Osito">' +
@@ -12,37 +10,35 @@ let dom = new JSDOM('<!DOCTYPE html><html lang="en">' +
     '<img class="img" src="http://japonpop.japonshop.com/wp-content/uploads/' +
     '2014/10/arte-latte-japon-gatos-japonshop03.png" alt="gato">' +
     '</script><script src="lib/main.js"></script></body></html>');
-const {
-    window
-} = dom;
+var window = dom.window;
 global.document = dom;
 global.window = window;
 global.navigator = {
-    userAgent: 'node.js',
+    userAgent: 'node.js'
 };
 
 var $ = require('jquery');
-const cardify = require("../src/cardify");
+var cardify = require("../src/cardify");
 var expect = require('chai').expect;
 
-describe('comprobar extension', () => {
-    it('debería devolver true para archivos con extensión .jpg, .gif o .png', () => {
+describe('comprobar extension', function () {
+    it('debería devolver true para archivos con extensión .jpg, .gif o .png', function () {
         expect(cardify.extension(), true);
     });
-    it('debería devolver false para archivos con extensión diferente a .jpg, .gif o .png', () => {
+    it('debería devolver false para archivos con extensión diferente a .jpg, .gif o .png', function () {
         expect(cardify.extension(), false);
     });
 });
 
-describe('comprobar si alt es un string', () => {
-    it('alt es un string', () => {
+describe('comprobar si alt es un string', function () {
+    it('alt es un string', function () {
         expect($('img').attr('alt')).to.be.a('string');
     });
 });
 
-describe('comprobar si alt está vacio', () => {
-    it('alt no esta vacio', () => {
-        var length = ($('img').attr('alt').length);
+describe('comprobar si alt está vacio', function () {
+    it('alt no esta vacio', function () {
+        var length = $('img').attr('alt').length;
         expect($('img').attr('alt')).to.have.length(length);
     });
 });
