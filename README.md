@@ -67,6 +67,10 @@ var cardify = require('cardify');
 ![Ejemplo Cardify](http://www.grupojega.cl/images/gifcardify.gif)
 [**DEMO**]()
 
+## Demo
+![alt text](http://www.grupojega.cl/images/demo.gif)
+
+
 ## Herramientas
 
 **Producción:**
