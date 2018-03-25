@@ -5,6 +5,8 @@
 [![cardify version](https://img.shields.io/badge/Last%20version-1.5.5-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
 [![autores](https://img.shields.io/badge/author-pazautumn%2C%20gabycasti-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
 
+![screenshot](https://raw.githubusercontent.com/PazAutumn/cardify/cardify/Screenshot-2018-3-25%20Cardify%20Example.png)
+
 ## Descripción:
 
 ### ¿Cómo funciona?
