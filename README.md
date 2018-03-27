@@ -9,7 +9,7 @@ Cardify es un plugin de jQuery que aplica un efecto de hover a tus imágenes env
 
 ![icon]()
 
-## En  [Peru](http://peru.com)
+## En  [Chile](http://chile.com)
 
 [![GitHub issue age](https://img.shields.io/badge/Created-January%202018-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
 [![Build Status](https://travis-ci.org/PazAutumn/cardify.svg?branch=cardify)](https://travis-ci.org/PazAutumn/cardify)
