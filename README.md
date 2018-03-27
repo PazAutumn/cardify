@@ -1,11 +1,20 @@
-[![GitHub issue age](https://img.shields.io/badge/Created-January%202018-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
+# Cardify 
 
-
-# Cardify    [![Build Status](https://travis-ci.org/PazAutumn/cardify.svg?branch=cardify)](https://travis-ci.org/PazAutumn/cardify)
-[![cardify version](https://img.shields.io/badge/Last%20version-1.5.5-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
-[![autores](https://img.shields.io/badge/author-pazautumn%2C%20gabycasti-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
+Cardify es un plugin de jQuery que aplica un efecto de hover a tus imágenes envolviendolas en una etiqueta <figure>, rescatando su descripción del atributo alt e insertando el texto en una etiqueta <figcaption>. Es fácil de usar y rápido de configurar.
 
 ![screenshot](https://raw.githubusercontent.com/PazAutumn/cardify/cardify/Screenshot-2018-3-25%20Cardify%20Example.png)
+
+## Proyecto desarrollado en [Laboratoria](http://laboratoria.la)
+
+
+![icon]()
+
+## En  [Peru](http://peru.com)
+
+[![GitHub issue age](https://img.shields.io/badge/Created-January%202018-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
+[![Build Status](https://travis-ci.org/PazAutumn/cardify.svg?branch=cardify)](https://travis-ci.org/PazAutumn/cardify)
+[![cardify version](https://img.shields.io/badge/Last%20version-1.5.5-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
+[![autores](https://img.shields.io/badge/author-pazautumn%2C%20gabycasti-yellow.svg?style=for-the-badge)](https://github.com/PazAutumn/cardify)
 
 ## Descripción:
 
